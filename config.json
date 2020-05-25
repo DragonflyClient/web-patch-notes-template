@@ -1,5 +1,10 @@
 {
-	"executeCommand": "pandoc index/{filename}.md -f markdown -t html -s -o index/{filename}.html --metadata title=\"Release {filename}\" --include-in-header=\"head.html\" --include-before-body=\"before.html\" --include-after-body=\"after.html\" --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/basic.css\" --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/after.css\" --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/before.css\"",
+	"executeCommand": "pandoc index/{filename}.md -f markdown
+ -t html -s -o index/{filename}.html --metadata title=\"Release {filename}\"
+ --include-in-header=\"head.html\" --include-before-body=\"before.html\"
+ --include-after-body=\"after.html\" --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/basic.css\"
+ --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/after.css\"
+ --css=\"https://cdn.icnet.dev/web/mcicn/patchnotes/css/before.css\"",
 	"folderDirectory": "/home/minecraftmod/patchnotes/index/",
 	"newDirectory": "/var/www/html/patchnotes/patch/"
 }
