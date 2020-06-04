@@ -1,1 +1,1 @@
-screen -S patch-notes-converter java -jar webpatchnotesconverter.jar
+screen -dmS patch-notes-converter java -jar webpatchnotesconverter.jar
