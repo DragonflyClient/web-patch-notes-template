@@ -22,3 +22,18 @@ function closeMenu(e) {
   ham.classList.toggle('ham-active');
   e.preventDefault();
 }
+
+function scrollToTop() {
+  $("html, body").animate({ scrollTop: 0 },  400)
+  closeMenu()
+}
+
+// Change direction of logo anchor
+window.addEventListener("scroll", function () {
+  const logoImg = document.querySelector("#logo a")
+  if (document.documentElement.scrollTop > 0) {
+    logoImg.setAttribute("href", "#")
+  } else {
+    logoImg.setAttribute("href", "https://inceptioncloud.net/dragonfly")
+  }
+})
