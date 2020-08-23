@@ -1,1 +1,1 @@
-screen -dmS patch-notes-converter java -jar webpatchnotesconverter.jar
+screen -dmS webservices sudo java -jar webservices.jar
